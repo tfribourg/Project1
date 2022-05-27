@@ -1,6 +1,6 @@
 body{
     font-family:'Courier New', Courier, monospace;
-    min-height: 100vh;
+    
     display:flex; flex-direction: column; margin:0;
 }
 ul{
@@ -26,7 +26,7 @@ a{
 }
 .header{
     display:flex;
-    max-height: 500px;
+    max-height: 450px;
     background-color: #1f2937;
     flex-direction: column; flex:1; margin:0;
    
@@ -50,7 +50,7 @@ button{
 }
 
 
-.body{ display:flex; flex-direction: column; height: 1000px;
+.body{ display:flex; flex-direction: column; height: 750px;
 
 
 }
@@ -83,4 +83,11 @@ button{
      flex-wrap: wrap; width: 500px; align-items: center; justify-content:center;
 }
 .author{margin-left: 300px; font-weight: 600;
+}
+.footer{ display: flex; flex-direction: column; height: 250px; justify-content: center;
+    align-items: center;
+}
+.last{display:flex; justify-content: space-between; align-items: center;
+background-color: #3882F6;
+width:300px;
 }
