@@ -87,7 +87,10 @@ button{
 .footer{ display: flex; flex-direction: column; height: 250px; justify-content: center;
     align-items: center;
 }
-.last{display:flex; justify-content: space-between; align-items: center;
-background-color: #3882F6;
-width:300px;
+.last{display:flex; border:32px; 
+background-color: #3882F6; align-items: center;
+width:1000px; height: 150px; justify-content:  space-around;
 }
+
+.lastbox{ color:white}
+.btn{border:1px solid white}
